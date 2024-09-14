@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+
+    background-image: url("Cheam.jpg");
+    background-repeat: no-repeat;
+    background-position:top right;
+ background-size:10% ;  
+}
+#LG {
+    background-image: linear-gradient(to top right, red, yellow, blue,  silver, green, orange, #A020F0 ); 
+    height: 400px;  
+}
+#hint {
+    text-decoration: line-through;
+}
+#Year {
+    background-color: red;
+    animation-name: x;
+    animation-iteration-count: infinite;
+   animation-duration: 4s; 
+height: 100px;
+}
+@keyframes x {
+    25% {background-color: red;}
+    25% {background-color: yellow;}
+    25% {background-color: blue;}
+    25% {background-color: silver;}
+    25% {background-color: green;}
+    25% {background-color: orange;}
+    25% {background-color: #A020F0;}
+}
